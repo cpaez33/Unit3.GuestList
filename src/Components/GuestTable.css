@@ -1,0 +1,57 @@
+.guest-details-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+button {
+  padding: 0.25rem;
+  background: lightblue;
+  border-radius: 10px;
+  width: 25%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #c0c0c0;
+}
+
+.guest-table {
+  border-collapse: collapse;
+  font-size: 1.1rem;
+}
+
+.guest-table tbody tr:nth-child(odd) {
+  background: lightblue;
+}
+
+.guest-table tbody tr {
+  cursor: pointer;
+}
+
+.guest-table td {
+  padding: 0.4rem 0.6rem;
+}
+
+.guest-table tbody tr:hover {
+  background-color: yellow;
+}
+
+.guest-details {
+  font-weight: 800;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.guest-table tbody tr.highlight {
+  background: yellow;
+}
